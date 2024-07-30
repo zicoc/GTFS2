@@ -1,2 +1,9 @@
-# GTFS2
-Proposition de solution de l'exercice technique 2: Développer une application qui prend comme intrant un numéro d'arrêt et une date/heure puis retourne pour chaque ligne le prochain passage à cet arrêt. Si la date/heure n'est pas spécifiée, on prend l'heure système actuelle. 
+Getting Started
+
+1- install python
+2- Install dependencies
+     pip install pandas argparse
+3- run code
+    python exercice2.py stop_id -d date_time
+    example: python exercice2.py 10034 -d "2024-07-30 14:30:00"
+    
